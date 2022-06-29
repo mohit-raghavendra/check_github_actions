@@ -7,6 +7,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - id: foo
-        uses: actions/check_github_actions@v1
+        uses: check_github_actions@v1
       - run: echo "wrapping up"
         shell: bash
