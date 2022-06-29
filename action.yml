@@ -1,0 +1,10 @@
+name: 'Check actions'
+description: 'Check the actions to see if it can work with write-good'
+runs:
+  using: "composite"
+  steps:
+    - run: echo "Hello Mohit."
+      shell: bash
+    - run: write-good *.md >> "report.txt"     
+    - run: echo "GG done, goodbye"
+      shell: bash
