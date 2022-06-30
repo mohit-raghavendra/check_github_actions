@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - id: foobar
-          run: npm install -g write-good
+        run: npm install -g write-good
         shell: bash
       - id: foo
         uses: ./
