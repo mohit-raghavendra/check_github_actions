@@ -6,5 +6,6 @@ runs:
     - run: echo "Hello Mohit."
       shell: bash
     - run: write-good *.md >> "report.txt"     
+      shell: bash
     - run: echo "GG done, goodbye"
       shell: bash
