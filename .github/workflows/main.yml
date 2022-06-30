@@ -6,7 +6,8 @@ jobs:
     name: A job to check stuff
     steps:
       - uses: actions/checkout@v3
-      - run: npm install -g write-good
+      - id: foobar
+	  	run: npm install -g write-good
 		shell: bash
       - id: foo
         uses: ./
