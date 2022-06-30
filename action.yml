@@ -5,7 +5,7 @@ runs:
   steps:
     - run: echo "Hello Mohit."
       shell: bash
-    - run: write-good *.md | tee "./report.txt"     
+    - run: write-good *.md
       shell: bash
     - run: echo "GG done, goodbye"
       shell: bash
