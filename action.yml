@@ -5,7 +5,7 @@ runs:
   steps:
     - run: echo "Hello Mohit."
       shell: bash
-    - run: write-good *.md
+    - run: write-good *.md || echo ""
       shell: bash
     - run: echo "GG done, goodbye"
       shell: bash
